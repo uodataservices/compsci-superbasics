@@ -12,23 +12,6 @@ Otherwise, there are different ways to get to the command line depending on
 which operating system you're using, and which application you prefer to use.
 Here are the common ways.
 
-### On Windows
-
-Two different applications that let you issue commands to Windows are cmd (the
-"command prompt") or Powershell.
-
-* Press the Windows key <img class="key" src="{{ site.baseurl }}/images/key-windows.svg" alt="the windows key"> to access the Start menu.
-* Type `cmd` and press enter, then choose **Command prompt**...
-* ...or type `powershell` and choose that.
-
-or
-
-* Press <img class="key" src="{{ site.baseurl }}/images/key-windows.svg" alt="the windows key"><span class="key"><em>X</em></span> to access the Power Users menu.
-* Choose **Command prompt** or **Powershell**.
-
-Other applications may also offer a command prompt. Git bash is a common one —
-be aware that Git bash really emulates a Unix command shell.
-
 ### On Mac
 
 You need to find the **Terminal** application and launch it. Either:
@@ -43,6 +26,10 @@ or, in Finder (e.g., click on the Desktop background, or the blue Finder icon):
 folder)
 
   * then double-click on **Terminal**.
+
+### On Windows
+
+By default, Windows has a different shell language than Unix, PowerShell. To emulate a Unix shell on a Windows environment, we recommend [Git Bash](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git).
 
 ### On Linux
 
