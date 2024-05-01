@@ -118,7 +118,7 @@ collections:
       - binary-files.md
       - think.md
   hardware:
-    output: true
+    output: false
     permalink: /hardware/:path/
     order:
       - hardware.md
